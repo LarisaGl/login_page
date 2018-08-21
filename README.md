@@ -2,38 +2,13 @@
 
 <h2 align="center">Install with npm:</h2>
 
-You should download and instal webpack: 4.16.5
+You can open my progect on Windows, Mac, or Linux by downloading npm version 6.2.0 and webpack version 4.16.5.
 
-For local run the following commands:
-```bash
-   npm init -y
-   npm install webpack webpack-cli --save-dev
-```
+All plugins you need you can see in my package.json file.
 
-And of curse you should run webpack-dev-server. For installation run the following command:
+For installation all environment run the following command:
 ```bash
-npm install --save-dev webpack-dev-server
-```
-
-All plugins you can see in my package.json
-
-It is "css-loader". For installation run the following command:
-```bash
-npm install --save-dev css-loader
-```
-It is "less-loader". For installation run the following command:
-```bash
-npm install less-loader --save-dev
-```
-
-It is "less". For installation run the following command:
-```bash
-npm i less -D
-```
-
-It is "style-loader". For installation run the following command:
-```bash
-npm install style-loader --save-dev
+npm install
 ```
 
 In your package-lock.json should be the following scripts:
@@ -65,6 +40,8 @@ In your webpack.config.js should be the following options:
 ### Get Started
   For pack you should run the following command:
 ```bash
-  npm run dist
   npm run dev
 ```
+### Creating your own plugins and goods
+If you create some plugin, I would be glad to open source it, and put it on my project.
+If you have discovered some buggs or have some suggestion, feel free to tell about it.
